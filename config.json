@@ -1,0 +1,8 @@
+{
+  "db_path": "data/assets.db",
+  "port": 8000,
+  "simulate_auto_scan": true,
+  "scan_interval_seconds": 5,
+  "default_locations": ["Office", "Warehouse", "Meeting Room", "Lobby", "Kitchen"],
+  "log_level": "info"
+} 

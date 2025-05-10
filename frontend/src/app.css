@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow p-6;
+}
+
+.btn {
+  @apply font-medium py-2 px-4 rounded-md transition-colors;
+}
+
+.btn-primary {
+  @apply bg-primary-600 text-white hover:bg-primary-700;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+.btn-danger {
+  @apply bg-red-600 text-white hover:bg-red-700;
+}
+
+.badge {
+  @apply text-xs font-semibold px-2.5 py-0.5 rounded-full;
+}
+
+.badge-active {
+  @apply bg-green-100 text-green-800;
+}
+
+.badge-missing {
+  @apply bg-red-100 text-red-800;
+}
+
+.badge-idle {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.input {
+  @apply block w-full rounded-md border-gray-300 shadow-sm p-2;
+} 
