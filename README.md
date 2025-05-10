@@ -13,8 +13,13 @@ A fullstack RFID-based asset tracking system simulation built with FastAPI (Pyth
 
 ## Screenshots
 
-![Dashboard Screenshot](screenshot.png)
-*Screenshot placeholder - will be replaced with actual application screenshots after first run*
+### Dashboard
+![Dashboard Screenshot](asset/img/dashboard.png)
+*Real-time asset tracking dashboard with status filtering and scan simulation*
+
+### API Documentation
+![API Documentation](asset/img/api_doc.png)
+*Built-in FastAPI Swagger documentation for easy API exploration*
 
 ## Setup Instructions (Windows)
 
@@ -46,7 +51,7 @@ A fullstack RFID-based asset tracking system simulation built with FastAPI (Pyth
 
 2. Install Node.js dependencies:
    ```
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 3. Start the Svelte development server:
