@@ -15,10 +15,12 @@ A fullstack RFID-based asset tracking system simulation built with FastAPI (Pyth
 
 ### Dashboard
 ![Dashboard Screenshot](asset/img/dashboard.png)
+
 *Real-time asset tracking dashboard with status filtering and scan simulation*
 
 ### API Documentation
 ![API Documentation](asset/img/api_doc.png)
+
 *Built-in FastAPI Swagger documentation for easy API exploration*
 
 ## Setup Instructions (Windows)
